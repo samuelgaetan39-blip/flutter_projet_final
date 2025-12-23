@@ -157,6 +157,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                             }
                             return null;
                           },
+                          onFieldSubmitted: (_) => _register(),
                         ),
                         const SizedBox(height: 16),
 
@@ -181,6 +182,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                             }
                             return null;
                           },
+                          onFieldSubmitted: (_) => _register(),
                         ),
                         const SizedBox(height: 16),
 
@@ -216,6 +218,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                             }
                             return null;
                           },
+                          onFieldSubmitted: (_) => _register(),
                         ),
                         const SizedBox(height: 16),
 

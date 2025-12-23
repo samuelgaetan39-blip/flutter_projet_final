@@ -159,6 +159,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             }
                             return null;
                           },
+                          onFieldSubmitted: (_) => _login(),
                         ),
                         const SizedBox(height: 16),
 
