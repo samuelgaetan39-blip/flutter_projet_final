@@ -1,16 +1,8 @@
 # flutter_projet_final
 
-A new Flutter project.
+## **Université Épiscopale d'Haïti (UNEPH) | Business and Technology Institute (BTI)**  
+### 8, rue du Quai, HT8110 Les Cayes, Haïti
 
-## Getting Started
+Ce projet (une application de gestion de tâches) constitue l'examen final du cours de développement mobile de la Faculté des Sciences Informatiques, présenté au professeur Phawens LOUIS-JEAN, par l'étudiant Samuel Kensley GAËTAN (de code : 2450-C).  
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+*Décembre 2025*
