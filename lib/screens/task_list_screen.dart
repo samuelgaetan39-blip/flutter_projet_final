@@ -211,6 +211,7 @@ class _TaskListScreenState extends State<TaskListScreen> {
                 // Recherche
                 TextField(
                   controller: _searchController,
+                  textCapitalization: TextCapitalization.sentences,
                   decoration: InputDecoration(
                     hintText: 'Rechercher une tâche...',
                     prefixIcon: const Icon(Icons.search),
