@@ -172,7 +172,7 @@ class _TaskListScreenState extends State<TaskListScreen> {
             const SizedBox(width: 12),
             Expanded( 
         child: Text(
-              'Bonjour, $prenom !',
+              'Salut, $prenom !',
               overflow: TextOverflow.ellipsis, // C'est le terme correct
               maxLines: 1,
               style: TextStyle(
