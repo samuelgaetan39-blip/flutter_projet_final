@@ -144,6 +144,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         // Nom
                         TextFormField(
                           controller: _nameController,
+                          textCapitalization: TextCapitalization.words,
                           decoration: InputDecoration(
                             labelText: 'Nom complet',
                             prefixIcon: const Icon(Icons.person_outline),

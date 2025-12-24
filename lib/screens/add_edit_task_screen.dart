@@ -145,6 +145,7 @@ class _AddEditTaskScreenState extends State<AddEditTaskScreen> {
                       const SizedBox(height: 8),
                       TextFormField(
                         controller: _titleController,
+                        textCapitalization: TextCapitalization.sentences,
                         decoration: InputDecoration(
                           hintText: 'Ex: Finaliser le rapport',
                           border: OutlineInputBorder(
@@ -173,6 +174,7 @@ class _AddEditTaskScreenState extends State<AddEditTaskScreen> {
                       const SizedBox(height: 8),
                       TextFormField(
                         controller: _descriptionController,
+                        textCapitalization: TextCapitalization.sentences,
                         maxLines: 5,
                         decoration: InputDecoration(
                           hintText: 'Décrivez votre tâche en détail...',
