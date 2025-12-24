@@ -57,6 +57,9 @@ class _LoginScreenState extends State<LoginScreen> {
         case 'user-disabled':
           message = 'Ce compte a été désactivé';
           break;
+        case 'network-request-failed':
+          message = "Aucune connexion internet.";
+          break;
       }
 
       if (mounted) {

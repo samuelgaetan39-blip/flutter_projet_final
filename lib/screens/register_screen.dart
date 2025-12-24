@@ -61,6 +61,9 @@ class _RegisterScreenState extends State<RegisterScreen> {
         case 'invalid-email':
           message = 'E-mail invalide';
           break;
+        case 'network-request-failed':
+          message = "Aucune connexion internet.";
+          break;  
       }
 
       if (mounted) {
